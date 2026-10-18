@@ -55,7 +55,8 @@ def get_items(category, query):
 
         try:
             dt = parsedate_to_datetime(pub_date)
-            published = dt.astimezone(timezone.utc).strftime("%m-%d %H:%M UTC")
+            from zoneinfo import ZoneInfo
+published = dt.astimezone(ZoneInfo("Asia/Shanghai")).strftime("%m-%d %H:%M 北京时间")
         except Exception:
             published = pub_date or "时间未知"
 
