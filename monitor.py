@@ -98,14 +98,6 @@ RSS_SOURCES = [
         "https://feeds.bbci.co.uk/news/business/rss.xml"
     ),
     (
-        "Reuters·全球",
-        "https://news.google.com/rss/search?q=when:1h+site:reuters.com&ceid=US:en&hl=en-US&gl=US"
-    ),
-    (
-        "AP·全球",
-        "https://news.google.com/rss/search?q=when:1h+site:apnews.com&ceid=US:en&hl=en-US&gl=US"
-    ),
-    (
         "CNBC·财经",
         "https://www.cnbc.com/id/100003114/device/rss/rss.html"
     ),
