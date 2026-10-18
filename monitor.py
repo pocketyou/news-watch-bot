@@ -88,6 +88,31 @@ RSS_SOURCES = [
         "经济观察网",
         "https://app.eeo.com.cn/rss.php"
     ),
+        # 国际新闻
+    (
+        "BBC·国际",
+        "https://feeds.bbci.co.uk/news/world/rss.xml"
+    ),
+    (
+        "BBC·商业",
+        "https://feeds.bbci.co.uk/news/business/rss.xml"
+    ),
+    (
+        "Reuters·全球",
+        "https://news.google.com/rss/search?q=when:1h+site:reuters.com&ceid=US:en&hl=en-US&gl=US"
+    ),
+    (
+        "AP·全球",
+        "https://news.google.com/rss/search?q=when:1h+site:apnews.com&ceid=US:en&hl=en-US&gl=US"
+    ),
+    (
+        "CNBC·财经",
+        "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+    ),
+    (
+        "TechCrunch·科技",
+        "https://techcrunch.com/feed/"
+    ),
 ]
 
 
